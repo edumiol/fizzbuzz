@@ -10,7 +10,7 @@ import IFizzBuzzRules from "./IFizzBuzzRules";
 
 export default class FizzBuzzRulesContext {
     private _rules: IFizzBuzzRules[]
-
+    // Respeitar a ordem das grandezas do Maior para o Menor.
     constructor() {
         this._rules = [
             new FizzBuzzFoo(),
